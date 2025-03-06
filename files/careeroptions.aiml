@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	
+	<category>
+	    <pattern>SYSTEMANALYST</pattern>
+	    <template>Based on your provided answers, I believe that the role of System Analyst could be a good fit for you!
+	    In this role, you will assess current computer systems and work to improve the efficiency.
+	    Generally, a computer science or mathematics degree is required, as well as being analytical, math-oriented, and organized. 
+	    Based on the Bureau of Labor Statistics, this role has a median income of $103,800.
+	    <link>
+            <text>Here is some more information!</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-systems-analysts.htm </url>
+        </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ITPROJECTMANAGER</pattern>
+        <template>Provided your previous answers, the role of IT Project Manager could be a good fit. 
+        In this career, you will plan, coordinate, and direct computer-related activities in the organization. 
+        This role is not limited to only the IT field, as all companies will have an IT office. 
+        To be successful, you will need a computer science (or similar) degree as well as some experience before being placed in a managerial role. 
+        An IT project manager will need to have good communication skills, computer knowledge, leadership skills, and be decisive. 
+        Based on the Bureau of Labor Statistics, this role has a median income of $169,510.
+        <link>
+            <text>Here is some more information!</text>
+            <url>https://www.bls.gov/ooh/management/computer-and-information-systems-managers.htm </url>
+        </link></template>
+    </category>
+    
+    <category>
+        <pattern>WEBDEVELOPER</pattern>
+        <template>I believe that the role of Web Developer could be a good fit! 
+        In this role, you will need to be communicative, creative, detail-oriented, and also have good problem solving skills. 
+        Proficiency in HTML, JavaScript, and/or SQL will most certainly be required. A degree in computer science, programming, web design, digital design, or graphics arts is generally required. 
+        Based on the Bureau of Labor Statistics, this role has a median income of $92,750.
+        <link>
+            <text>Here is some more information!</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm </url>
+        </link></template>
+    </category>
+    
+    <category>
+        <pattern>TECHNICALWRITER</pattern>
+        <template>Given your answers to the previous questions, the role of Technical Writer could be a possible career path. 
+        To succeed in this field, you will be expected to be a critical thinker, detail-oriented, imaginative, and possess technical writing skills. 
+        There are a few degrees that are accepted in this field: English, communications, engineering, or computer science to name a few. 
+        Based on the Bureau of Labor Statistics, this role has a median income of $80,050.
+        <link>
+            <text>Here is some more information!</text>
+            <url>https://www.bls.gov/ooh/media-and-communication/technical-writers.htm </url>
+        </link></template>
+    </category>
+    
+    <category>
+        <pattern>DATASCIENTIST</pattern>
+        <template>Given you said you are analytical and math-oriented, the role of Data Scientist is surely a good career choice for you. 
+        In this role, you will need to be analytical, be communicative, math-oriented, logical-minded, and be a problem solver. 
+        Generally, a degree in computer science, mathematics, or statistics is accepted. 
+        Based on the Bureau of Labor Statistics, this role has a median income of $108,020.
+        <link>
+            <text>Here is some more information!</text>
+            <url>https://www.bls.gov/ooh/math/data-scientists.htm </url>
+        </link>
+        </template>
+    </category>
+	
+
+</aiml>

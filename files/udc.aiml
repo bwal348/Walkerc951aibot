@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+    
+    <category>
+        <pattern>*</pattern>
+        <template>Sorry, I am not sure about that. To get started, please type "Hi". I look forward to helping!</template>
+    </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template>Hello! Please type "Start" to begin!</template>
+  </category>
+  
+    <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! Please type "Start" to begin!</template>
+  </category>
+  
+  <category>
+      <pattern>START</pattern>
+      <template>I am a career support bot, here to give you an idea of a computer science job you might be interested in! Ready to go? (Yes or No)</template>
+  </category>
+  
+  <category>
+      <pattern>YES</pattern>
+      <template>Great. I will ask you a series of questions, and at the end, I should have a job reccommendation for you. Please type "Ok" to hear the first question.</template>
+  </category>
+  
+  <category>
+      <pattern>NO</pattern>
+      <template>Alright. When you're ready, start over by typing "Hi".</template>
+  </category>
+ 
+ <category>
+     <pattern>OK</pattern>
+     <template>I am going to assume your degree is Computer Science, or a similar field. Given this, would you say that you are an analytical person?
+        <button>
+            <text>Yes</text>
+                <postback>YESANALYTICAL</postback>
+        </button>
+        <button>
+            <text>No</text>
+                <postback>NOANALYTICAL</postback>
+        </button>
+     </template>
+ </category>
+ 
+ <category>
+     <pattern>YESANALYTICAL</pattern>
+     <template>Great! There are a few options for someone like that! To narrow this down a bit more, would you say that you are very math-oriented?
+        <button>
+            <text>Yes</text>
+                <postback>DATASCIENTIST</postback>
+        </button>
+        <button>
+            <text>No</text>
+                <postback>NOMATH</postback>
+        </button>
+    </template>
+ </category>
+ 
+ <category>
+     <pattern>NOANALYTICAL</pattern>
+     <template>We've still got options! Can you see yourself creating technical documents?
+        <button>
+            <text>Yes</text>
+                <postback>TECHNICALWRITER</postback>
+        </button>
+        <button>
+            <text>No</text>
+                <postback>NOTECHNICALWRITING</postback>
+        </button>
+     </template>
+ </category>
+ 
+ <category>
+     <pattern>YESMATH</pattern>
+     <template>
+         <postback>DATASCIENTIST</postback>
+     </template>
+ </category> 
+ 
+ <category>
+     <pattern>NOMATH</pattern>
+     <template>No worries! Math isn't for everyone. Would you like to be in a leadership role?
+        <button>
+            <text>Yes</text>
+                <postback>ITPROJECTMANAGER</postback>
+        </button>
+        <button>
+            <text>No</text>
+                <postback>SYSTEMANALYST</postback>
+        </button>
+    </template>
+ </category>
+ 
+ <category>
+     <pattern>NOTECHNICALWRITING</pattern>
+     <template>I'm not one for writing either. Would you consider yourself detail-oriented and a problem solver?
+        <button>
+            <text>Yes</text>
+                <postback>WEBDEVELOPER</postback>
+        </button>
+        <button>
+            <text>No</text>
+                <postback>NOTOALL</postback>
+        </button>
+     </template>
+ </category>
+ 
+ <category>
+     <pattern>NOTOALL</pattern>
+     <template>Hmm. It seems that of the options I have, none are a good fit for you. 
+                Perhaps try the questionnaire again, or return at a later date when some of your answers could be different.</template>
+ </category>
+ 
+
+ 
+</aiml>
